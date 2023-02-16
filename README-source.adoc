@@ -5,14 +5,6 @@
 
 Starting repo with Azure code running on my account - make it as professional as possible.
 
+include::./Documentation/Chocolatey.adoc[]
+include::./Documentation/GitHub.adoc[]
 include::./Documentation/Powershell.adoc[]
-
-== _Debian_-based linux systems
-https://help.ubuntu.com/community/UsingTheTerminal[*Open a terminal window*]. *Copy & paste the following* into the terminal window and *hit* `Return`. You may be prompted to enter your password.
-
-[source,bash]
-----
-sudo apt update
-sudo apt upgrade
-sudo apt install git
-----

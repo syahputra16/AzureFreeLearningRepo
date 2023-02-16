@@ -1,0 +1,9 @@
+= Chocolatey tool
+
+[abstract]
+Good tool to keep needed installations in code
+
+TODO:
+
+- [ ] Setup doc structure
+- [ ] Connect source code block with how https://chocolatey.org/install[install was done]

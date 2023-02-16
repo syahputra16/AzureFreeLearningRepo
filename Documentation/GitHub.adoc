@@ -1,0 +1,30 @@
+= GitHub steps
+:toc:
+
+== Configuration
+- [x] Made https://github.com/MJVMS[organization]
+- [x] Setup https://github.com/orgs/MJVMS/projects/1[project]
+- [ ] Write all new tasks in project backlog - docs shouldn't be a step counter
+- [ ] Configure release notes, changelog
+- [x] Defined new https://github.com/MJVMS/AzureFreeLearningRepo[Azure learning repo]
+- [x] Setup https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization#managing-github-actions-permissions-for-your-organization[workflow permissions] on https://github.com/organizations/MJVMS/settings/actions[organization level], then on https://github.com/MJVMS/AzureFreeLearningRepo/settings/actions[repo level], so that I can use https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions[Github Actions] to configure https://github.com/asciidoctor/asciidoctor-reducer#reduce-files-in-a-github-repository[Asciidoctor reducer] to be able to view inherited objects (code block) in GitHub directly footnote:GHISSUE_ASCIIDOCSupportInclude[Open issue on Github - https://github.com/github/markup/issues/1095[support include directives for other asciidoc files]], not just via https://github.com/asciidoctor/asciidoctor-vscode[Asciidoctor VS Code] extension.
+
+== Documentation
+
+- [x] Create first doc repo which has reference to code block
+- [ ] Finish setup of all docs before new code (all TODOs)
+- [ ] Inherit auth and other keywords
+- [ ] Setup nice ./../README-source.adoc[README-source.adoc] and these sort of relative links
+- [ ] Explore https://docs.asciidoctor.org/asciidoc/latest/[asciidoc features] to have all I know in md and make comparison
+- [ ] Review https://docs.asciidoctor.org/asciidoc/latest/document/doctype/[doctype book issue in Readme-source]
+- [ ] Learn all of the GitHub limitations on asciidoc rendering footnote:GH_SDASCIIDOCFLAVOR[https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74[Blog post] describing semantics of GitHub-Flavored Asciidoc, since GitHub uses Asciidoctor in safe mode to render files]
+- [ ] Review best practices footnote:ASCIIDOC_HDOC1[https://asciidoctor.org/docs/asciidoc-recommended-practices/[AsciiDoc Recommended Practices]] footnote:ASCIIDOC_HDOC2[https://github.com/asciidoctor/atom-asciidoc-preview[Review old tech]] footnote:ASCIIDOC_HDOC3[https://github.com/JoeArauzo/AsciiDoc-README-Template[A README template written in AsciiDoc markup]] footnote:ASCIIDOC_HDOC4[https://docs.couchbase.com/home/contribute/code-blocks.html[Code Blocks and Callouts]] footnote:ASCIIDOC_HDOC5[https://github.com/eddiejaoude/book-open-source-tips[Open Source Tips Book]]
+- [ ] Difference for https://gitlab.com/gitlab-org/gitlab-foss/-/issues/18045[Gitlab] 
+
+== Learn
+
+- [ ] Is https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api?apiVersion=2022-11-28[GitHub REST API] of use
+- [ ] Organize whats good in https://docs.github.com/en[official docs]
+- [ ] Understand all of the github repository vs project vs organization vs codespace vs gist options
+- [ ] Review https://choosealicense.com/[licences]
+- [ ] Review https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files[.gitignore]
