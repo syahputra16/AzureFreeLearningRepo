@@ -1,0 +1,43 @@
+:author: Mladen Miljuš
+:doctype: book
+
+= AzureFreeLearningRepo
+
+Starting repo with Azure code running on my account - make it as professional as possible.
+
+:author: Mladen Miljuš
+:version: 0.1.0
+
+= Powershell help
+:toc:
+
+[abstract]
+Interesting powershell commands for proficiency.
+
+== Powershell apps help
+
+Save help from command to specific file for reading:
+
+====
+[source,pwsh]
+----
+Remove-Variable fileLoc #<.>
+$fileLoc="$Env:USERPROFILE\Documents\PowerShell\chocoHelp.txt" #<.>
+choco /? | Out-File $fileLoc #<.>
+Start-Process notepad++ $fileLoc #<.>
+----
+<.> Variables can be removed if previously present, or cleared
+<.> Use environment variables and relative paths to specify location
+<.> Use  https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipelines[Powershell pipelines] to combine commands and here create a file in the defined location
+<.> You can use specific programs to open the file
+====
+
+== _Debian_-based linux systems
+https://help.ubuntu.com/community/UsingTheTerminal[*Open a terminal window*]. *Copy & paste the following* into the terminal window and *hit* `Return`. You may be prompted to enter your password.
+
+[source,bash]
+----
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+----
